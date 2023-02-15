@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 // start the server
 app.listen(port, () => {
-    console.log("This is new commit");
+    console.log("This is new commit 1");
     console.log(`Example app listening at http://localhost:${port}`);
     }
 );
