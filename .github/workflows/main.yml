@@ -14,7 +14,7 @@ jobs:
       with:
         host: ec2-3-109-139-150.ap-south-1.compute.amazonaws.com
         username: ubuntu
-        key: ${{ secrets.DEPLOY }}
+        key: ${{ secrets.DEPLOY_ORIGINAL }}
         port: 22
         script: |
           whoami
