@@ -19,3 +19,5 @@ jobs:
         script: |
           whoami
           ls
+          cd auto-deploy-ec2
+          git pull origin main
