@@ -12,7 +12,7 @@ jobs:
     - name: executing remote ssh commands
       uses: appleboy/ssh-action@v0.1.7
       with:
-        host: ec2-3-109-139-150.ap-south-1.compute.amazonaws.com
+        host: ubuntu@ec2-13-233-199-144.ap-south-1.compute.amazonaws.com
         username: ubuntu
         key: ${{ secrets.DEPLOY }}
         port: 22
