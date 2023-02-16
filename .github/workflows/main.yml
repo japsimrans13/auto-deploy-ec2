@@ -20,4 +20,5 @@ jobs:
           whoami
           ls
           cd auto-deploy-ec2
+          ls
           git pull origin main
